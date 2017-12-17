@@ -1,4 +1,4 @@
-# Disclaimer - This shit ain't donee
+# Disclaimer - This shit ain't done
 # Coolered
 ## A better [dslackw/colored](https://github.com/dslackw/colored)
 I read the readme of dslackw/colored for Python, and thought it was too complicated. This will be an interface so simple you memorize it immediately.
