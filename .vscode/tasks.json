@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "taskName": "run",
+      "suppressTaskName": true,
+      "command": "python",
+      "isBuildCommand": true,
+      "args": [
+        "${file}"
+      ]
+    },
+    {
+      "taskName": "test",
+      "suppressTaskName": true,
+      "command": "pytest",
+      "isTestCommand": true,
+      "args": [
+        "tests/"
+      ]
+    }
+  ]
+}

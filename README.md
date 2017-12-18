@@ -6,13 +6,14 @@ I read the readme of dslackw/colored for Python, and thought it was too complica
 ## Example
 ```
 # Colors
-red("This is red")
-green("This is green")
-blue("This is blue")
+color('red', 'This is red')
+color('blue', 'This is blue')
+color('yellow', 'This is yellow')
 
 # Backgrounds
-blue("Blue with a red background").on_red()
-green("This isn't readable").on_green()
+color('red', "This is red with a blue background", bg='blue')
+color('blue', "This is blue with a yellow background", bg='yellow')
+
 
 # That's it
 ```
